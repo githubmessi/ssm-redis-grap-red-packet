@@ -36,4 +36,11 @@ public class UserRedPacketController {
         retMap.put("hello", "你好。");
         return retMap;
     }
+    @RequestMapping("/hello2")
+    @ResponseBody
+    public Map<String, Object> hello2(){
+        Map<String, Object> retMap = new HashMap<>();
+        retMap.put("hello", "你好。");
+        return retMap;
+    }
 }
