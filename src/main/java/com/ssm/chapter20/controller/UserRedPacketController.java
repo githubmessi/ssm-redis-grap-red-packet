@@ -35,6 +35,7 @@ public class UserRedPacketController {
         Map<String, Object> retMap = new HashMap<>();
         retMap.put("hello", "tom and jerry.");
         System.out.println("添加1");
+        System.out.println("添加2");
         return retMap;
     }
 }
